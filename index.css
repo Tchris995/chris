@@ -1,0 +1,1146 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  padding-top: 14vh;
+  font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+
+.container{
+  position: fixed;
+  height:14vh;
+  background-color: white;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  
+
+}
+
+
+.left{
+  display: flex;
+  font-size: 2.2vw;
+  justify-content: center;
+  align-items: center;
+  margin-left: 7%;
+
+}
+.right{
+  display: flex;
+  font-size: 1.3vw;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  height: 100%;
+  margin-right: 5%;
+
+}
+
+.icon{
+  height: 30%;
+  /* margin-right: 20%; */
+}
+
+.icon > img{
+  height: 100%;
+  border-radius: 50%;
+}
+
+.contain{
+  height: 90vh;
+  background-image: url('river.jpg');
+  background-position: center;
+  background-size: cover;
+}
+.by{
+  height: 100%;
+  /* background-color: blueviolet; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.first{
+  font-size: 5vw;
+  /* width: 70%; */
+  font-weight: bold;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+}
+.every{
+  font-size: 5vw;
+  /* width: 70%; */
+  font-weight: bold;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom: 3%;
+}
+.second{
+  display: flex;
+  font-size: 1.5vw;
+  font-weight: bold;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom: 3%;
+}
+
+.third{
+  display: flex;
+  gap: 2%;
+  /* background-color: yellow; */
+  width: 100%;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.me, .you{
+  
+  font-size: 1.3vw;
+  font-family:Arial, Helvetica, sans-serif;
+  padding: 20px 50px;
+  color: white;
+  
+}  
+
+.me{
+  background-color: rgb(139, 50, 203);
+  border: none;
+}
+.you{
+  background-color: transparent;
+  border: 1px solid white;
+}
+
+.me:hover{
+  opacity: 0.8;
+}
+.you:hover{
+  background-color: white;
+  color: black;
+}
+
+.corn, .corns{
+  height: 77vh;
+  display: flex;
+  gap: 12px;
+  /* justify-cont/ent: center; */
+  align-items: center;
+  padding: 30px;
+  background-color: bisque;
+  
+
+  
+  
+}
+
+.top{
+  display: flex;
+  flex: 2;
+  height: 100%;
+  /* background-color: blue; */
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  
+}
+
+.b{
+  height: 100%;
+  object-fit: cover;
+}
+
+
+
+.down, .downs{
+  /* background-color: teal; */
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  /* width: 70%; */
+  flex-wrap: wrap;
+  text-align: justify;
+  /* line-height: 1.5px; */
+  /* justify-content: center; */
+  /* align-item/s: center; */
+  margin-right: 40px;
+}
+
+.gun{
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 2.5vw;
+  /* padding: 25px; */
+  
+  
+  
+}
+
+.gum{
+  /* margin: 0px; */
+  font-size: 1.5vw;
+  padding: 28px;
+  padding-left: 0px;
+} 
+
+.down button, .downs button{
+
+  width: 50%;
+  
+  padding: 15px 50px; 
+  background-color: rgb(17, 101, 196);
+  /* font-size: 0.8vw; */
+  border: none;
+  color: white;
+}
+ .downs{
+  margin-left: 10%;
+}
+.downs button{
+  width: 60%;
+}
+.para{
+  height: 60vh;
+  background-image: url('parallax.jpg');
+  font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background-position: center;
+  background-size: cover;
+  color: white;
+  display: flex;
+
+}
+
+.gift{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.gift h2{
+  font-size: 3.5vw;
+}
+.gift button{
+  background-color: rgb(25, 122, 220);
+  padding: 20px 80px;
+  font-size: 1.3vw;
+  border: none;
+  color: white;
+}
+.gift p{
+  padding: 20px 20%;
+}
+.gave{
+  background-color: bisque;
+  padding-bottom: 20px;
+}
+
+.forest{
+  height: 80vh;
+  padding: 0px 60px;
+  background-color: bisque;
+  
+}
+
+.do{
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.black{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: black;
+  color: white;
+}
+
+.good{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  
+}
+.good p{
+  margin: 30px 0px;
+}
+.good h3{
+  font-size: 3vw;
+}
+
+.on{
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.grid{
+  display: grid;
+  height: 90vh;
+  grid-template-columns: repeat(4, 1fr);
+  margin-bottom: 10px;
+  
+}
+.grid img{
+  width: 100%;
+}
+
+
+ .out{
+  height: 80vh;
+  background-image: url('riverphoto-1452723312111-3a7d0db0e024.jpg');
+  background-position: center;
+  background-size: cover;
+  color: white;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  align-content: center;
+  justify-items: center;
+  /* margin-top: 185px;  */
+}
+
+.c_test p{
+  margin: 40px 160px;
+  font-size: 1.2vw;
+}
+.c_test h2{
+  font-size: 1.6vw;
+  font-family: ;
+}
+
+
+
+.container_card{
+  /* border: solid 1/px red; */
+  width: 300px;
+  height: 200px;
+  perspective: 1000px;
+  background-color: transparent;
+}
+
+.flip{
+  position: relative;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.5s;
+  transform-style: preserve-3d;
+}
+
+.container_card:hover .flip{
+  transform: rotateY(180deg);
+}
+
+.fronts, .backs{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden
+}
+
+
+
+.fronts {
+  transform: rotateY(180deg);
+}
+
+.fronts > img, .backs > img{
+  width: 100%;
+  border-radius: 50%;
+  height: 100%;
+  object-fit: cover;
+}
+.container_card h4{
+  margin: 15px;
+}
+.maq{
+  height: 70vh;
+  width: 100%;
+  display: grid;
+  justify-content: center;
+}
+.maq .col{
+  width: 100%;
+}
+.gol{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.5vw; 
+}
+.tik{
+  height: 40vh;
+  background-color: rgb(201, 200, 198);
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  justify-content: center;
+  align-items: center;
+}
+.tin{
+  display: grid;
+  justify-content: center;
+  font-size: 4.5vh;
+}
+.tif button{
+  font-size: 2.6vh;
+  padding: 20px 60px;
+  border: none;
+  background-color: rgb(86, 86, 207);
+  color: white;
+}
+
+.tiks{
+  height: 30vh;
+  background-color: black;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.tinss{
+  display: grid;
+  /* justify-content: center; */
+  padding-left: 3vw;
+  font-size: 2.5vh;
+}
+
+@media (min-width:320px) {
+  .left{
+    display: flex;
+    font-size: 3.5vw;
+    margin-left: 6%;
+  
+  }
+  .right{
+    font-size: 2.3vw;
+    gap: 10px;
+    margin-right: 4%;
+  }
+
+  .first{
+    font-size: 7vw; 
+  }
+  .every{
+    font-size: 7vw;
+    margin-bottom: 5%;
+    margin-top: 5%;
+  }
+  .second{
+    font-size: 3vw;
+    margin-bottom: 5%;
+    width: 70%;
+    text-align: center;
+  }
+  
+  .third{
+    gap: 3%;
+  }
+  
+  .me, .you{
+    
+    font-size: 2.5vw;
+  } 
+  
+  
+  
+  .corn, .corns{
+    height: 107vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: bisque;
+
+    
+  }
+  
+  .top{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    
+  }
+  
+  .b{
+    height: 100%;
+    max-width: 100%;
+    object-fit: cover;
+  }
+  
+  
+  
+  .down, .downs{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: justify;
+  }
+  
+  .gun{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 3.7vw;
+  }
+  
+  .gum{
+    font-size: 3.5vw;
+    padding: 28px;
+    padding-left: 0px;
+  } 
+  
+  
+  .gift h2{
+    font-size: 5.5vw;
+  }
+  .gift button{
+    font-size: 3.3vw;
+  }
+  
+  
+  .do{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .black{
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 100vh;
+    background-color: black;
+    color: white;
+  }
+
+  .good{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    
+  }
+  .good p{
+    margin: 30px 0px;
+  }
+  .good h3{
+    font-size: 3vw;
+  }
+  
+  .on{
+    display: grid;
+    grid-template-columns: 1fr;
+    flex-wrap: wrap;
+    height: 90vh;
+  }
+  
+  .grid{
+    display: grid;
+    height: 100%;
+    grid-template-columns: repeat(4, 1fr);
+    /* margin-bottom: 10px; */
+    
+  }
+  .grid img{
+    width: 100%;
+  }
+
+
+
+  
+  .c_test p{
+    margin: 10px 60px;
+    font-size: 3.5vw;
+  }
+  .c_test h2{
+    font-size: 5.6vw;
+    font-family: ;
+  }
+  
+  
+  .gol{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-size: 5.5vw; 
+  }
+  .tin{
+    margin-left: 15px;
+  }
+  .tin{
+    display: grid;
+    justify-content: center;
+    font-size: 2.5vh;
+  }
+  .tif button{
+    font-size: 2.6vh;
+    padding: 10px 40px;
+    border: none;
+    
+  }
+  .tif{
+    margin-right: 15px;
+  }
+  
+  .tinss{
+    display: grid;
+    /* justify-content: center; */
+    padding-left: 3vw;
+    font-size: 2.5vh;
+    width: 80%;
+  }
+  
+}
+
+
+
+
+
+@media (min-width:540px) {
+  .corn, .corns{
+    height: 150vh;
+    display: flex;
+    gap: 12px;
+    /* justify-cont/ent: center; */
+    align-items: center;
+    padding: 20px;
+    background-color: bisque;
+    
+  
+    
+    
+  }
+  
+  
+  
+  
+  .gun{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 3.5vw;
+    /* padding: 25px; */
+  }
+  
+  .gum{
+    /* margin: 0px; */
+    font-size: 2.5vw;
+    padding: 28px;
+    padding-left: 0px;
+  } 
+  
+  .down button, .downs button{
+    text-transform: uppercase;
+    width: 50%;
+    
+    padding: 15px 30px; 
+    background-color: rgb(17, 101, 196);
+    /* font-size: 0.8vw; */
+    border: none;
+    color: white;
+  }
+   .downs{
+    margin-left: 10%;
+  }
+  .downs button{
+    width: 50%;
+    margin-left: -80px;
+  }
+}
+
+@media (min-width:768px){
+  .c_test h2{
+    font-size: 2.8vw;
+  }
+  .c_test p{
+    font-size: 2vw;
+  }
+
+  .out{
+    margin-top: 90px;
+  }
+}
+
+@media (min-width:920px){
+  .corn, .corns{
+    height: 120vh;
+    display: flex;
+    gap: 12px;
+    /* justify-cont/ent: center; */
+    align-items: center;
+    padding: 30px;
+    background-color: bisque;
+    
+  
+    
+    
+  }
+  
+  
+  
+  .gun{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 3.5vw;
+  
+    
+    
+    
+  }
+  
+  .gum{
+    /* margin: 0px; */
+    font-size: 2.5vw;
+    padding: 28px;
+    padding-left: 0px;
+  } 
+
+   
+} 
+@media (min-width:920px){
+  .container{
+    position: fixed;
+    height:14vh;
+    background-color: white;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    
+  
+  }
+  
+  
+  .left{
+    display: flex;
+    font-size: 2.2vw;
+    justify-content: center;
+    align-items: center;
+    margin-left: 7%;
+  
+  }
+  .right{
+    display: flex;
+    font-size: 1.3vw;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    height: 100%;
+    margin-right: 5%;
+  
+  }
+  
+  .icon{
+    height: 30%;
+  }
+  
+  .icon > img{
+    height: 100%;
+    border-radius: 50%;
+  }
+  
+  .contain{
+    height: 90vh;
+    background-image: url('river.jpg');
+    background-position: center;
+    background-size: cover;
+  }
+  .by{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .first{
+    font-size: 3.5vw;
+    font-weight: bold;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 20px;
+    
+  }
+  .every{
+    font-size: 3.5vw;
+    font-weight: bold;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 2%;
+    margin-top: -1px;
+  }
+  .second{
+    display: flex;
+    font-size: 1.5vw;
+    font-weight: bold;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 3%;
+    justify-content: center;
+  }
+  
+  .third{
+    display: flex;
+    gap: 2%;
+    /* background-color: yellow; */
+    width: 100%;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+  }
+  
+  .me, .you{
+    
+    font-size: 1.3vw;
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 20px 50px;
+    color: white;
+    
+  }  
+  
+  .me{
+    background-color: rgb(139, 50, 203);
+    border: none;
+  }
+  .you{
+    background-color: transparent;
+    border: 1px solid white;
+  }
+  
+  .me:hover{
+    opacity: 0.8;
+  }
+  .you:hover{
+    background-color: white;
+    color: black;
+  }
+  
+  .corn, .corns{
+    height: 77vh;
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    /* justify-cont/ent: center; */
+    align-items: center;
+    padding: 30px;
+    background-color: bisque;
+    
+  
+    
+    
+  }
+  
+  .top{
+    display: flex;
+    flex: 2;
+    height: 100%;
+    /* background-color: blue; */
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    
+  }
+  
+  .b{
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  
+  
+  .down, .downs{
+    /* background-color: teal; */
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    /* width: 70%; */
+    flex-wrap: wrap;
+    text-align: justify;
+    /* line-height: 1.5px; */
+    /* justify-content: center; */
+    /* align-item/s: center; */
+    margin-right: 40px;
+  }
+  
+  .gun{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 2.5vw;
+    /* padding: 25px; */
+    
+    
+    
+  }
+  
+  .gum{
+    /* margin: 0px; */
+    font-size: 1.5vw;
+    padding: 28px;
+    padding-left: 0px;
+  } 
+  
+  .down button, .downs button{
+  
+    width: 50%;
+    
+    padding: 15px 50px; 
+    background-color: rgb(17, 101, 196);
+    /* font-size: 0.8vw; */
+    border: none;
+    color: white;
+  }
+   .downs{
+    margin-left: 10%;
+  }
+  .downs button{
+    width: 60%;
+  }
+  .para{
+    height: 60vh;
+    background-image: url('parallax.jpg');
+    font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    display: flex;
+  
+  }
+  
+  .gift{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .gift h2{
+    font-size: 3.5vw;
+  }
+  .gift button{
+    background-color: rgb(25, 122, 220);
+    padding: 20px 80px;
+    font-size: 1.3vw;
+    border: none;
+    color: white;
+  }
+  .gift p{
+    padding: 20px 20%;
+  }
+  .gave{
+    background-color: bisque;
+    padding-bottom: 20px;
+  }
+  
+  .forest{
+    height: 80vh;
+    padding: 0px 60px;
+    background-color: bisque;
+    
+  }
+  
+  .do{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .black{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: black;
+    color: white;
+  }
+  
+  .good{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    
+  }
+  .good p{
+    margin: 30px 0px;
+  }
+  .good h3{
+    font-size: 3vw;
+  }
+  
+  .on{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  
+  .grid{
+    display: grid;
+    height: 90vh;
+    grid-template-columns: repeat(4, 1fr);
+    margin-bottom: 10px;
+    
+  }
+  .grid img{
+    width: 100%;
+  }
+  
+  
+   .out{
+    height: 80vh;
+    background-image: url('riverphoto-1452723312111-3a7d0db0e024.jpg');
+    background-position: center;
+    background-size: cover;
+    color: white;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    justify-items: center;
+    /* margin-top: 185px;  */
+  }
+  
+  .c_test p{
+    margin: 40px 160px;
+    font-size: 1.2vw;
+  }
+  .c_test h2{
+    font-size: 1.6vw;
+    font-family: ;
+  }
+  
+  
+  
+  .container_card{
+    /* border: solid 1/px red; */
+    width: 300px;
+    height: 200px;
+    perspective: 1000px;
+    background-color: transparent;
+  }
+  
+  .flip{
+    position: relative;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.5s;
+    transform-style: preserve-3d;
+  }
+  
+  .container_card:hover .flip{
+    transform: rotateY(180deg);
+  }
+  
+  .fronts, .backs{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden
+  }
+  
+  
+  
+  .fronts {
+    transform: rotateY(180deg);
+  }
+  
+  .fronts > img, .backs > img{
+    width: 100%;
+    border-radius: 50%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .container_card h4{
+    margin: 15px;
+  }
+  .maq{
+    height: 70vh;
+    width: 100%;
+    display: grid;
+    justify-content: center;
+  }
+  .maq .col{
+    width: 100%;
+  }
+  .gol{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5vw; 
+  }
+  .tik{
+    height: 40vh;
+    background-color: rgb(201, 200, 198);
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    justify-content: center;
+    align-items: center;
+  }
+  .tin{
+    display: grid;
+    justify-content: center;
+    font-size: 4.5vh;
+  }
+  .tif button{
+    font-size: 2.6vh;
+    padding: 20px 60px;
+    border: none;
+    background-color: rgb(86, 86, 207);
+    color: white;
+  }
+  
+  .tiks{
+    height: 30vh;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+  
+  .tinss{
+    display: grid;
+    /* justify-content: center; */
+    padding-left: 3vw;
+    font-size: 2.5vh;
+    
+  
+    
+    
+  }
+}
+@media (min-width:1220px){
+  .out{
+    margin-top: 220px;
+  }
+}
+
+
+
+
+
+
+
